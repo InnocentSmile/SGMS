@@ -1,0 +1,153 @@
+/*
+// +----------------------------------------------------------------------
+// | Learn More Every Day
+// +----------------------------------------------------------------------
+// | Author: YiGeSan
+// +----------------------------------------------------------------------
+*/
+@charset "utf-8";
+body {
+	font-family: "微软雅黑";
+}
+a {
+	outline: none!important;
+}
+.form-control, .input-group-addon, .alert {
+	border-radius: 0;
+}
+
+.input-group {
+	margin-top:20px;
+}
+.form-control {
+	border: none;
+	box-shadow: none;
+	height:40px;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+.btn {
+	border-radius: 0;
+}
+.input-group-addon:first-child {
+	border:none;
+}
+.input-group-addon.iconfont {
+	font-size:23px;
+}
+.input-group-addon {
+	background: #fcfcfc;
+}
+#top-bar {
+	width:100%;
+	height:90px;
+	line-height: 90px;
+	overflow: hidden;
+}
+#login {
+	width:100%;
+	min-width: 1200px;
+	height:600px;
+	background-image: url(../img/pc-login.jpg);
+	background-repeat: no-repeat;
+}
+.wrap {
+	width:1200px;
+	margin:0 auto;
+}
+#logo a {
+	width:187px;
+	height:50px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: inline-block;
+}
+#login .login-img {
+	width:557px;
+	height:486px;
+	background-image: url(../img/pc-login2.png);
+	margin-top: 55px;
+}
+#login .login-form {
+	background-position: 0% 0%;
+    width:350px;
+	background-color: rgba(255,255,255,.8);
+	margin-top:50px;
+	box-sizing: border-box;
+	padding:20px;
+    font-size: large;
+    font-weight: 700;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+#login .login-form h2 {
+	width:50%;
+	font-size:20px;
+	text-align: center;
+	padding:10px;
+	margin:0;
+	box-sizing: border-box;;
+	cursor: pointer;
+	float:left;
+}
+#login .login-form h2.on{
+	border-bottom:2px solid #f60;
+	background:#fff;
+}
+#login .login-form .bd {
+	display: none;
+}
+button[type=submit] {
+	margin-top:20px;
+}
+.forget div a {
+	color:#666;
+}
+.verify {
+	width:160px;
+	position: absolute;
+	top:0;
+	right:0;
+	z-index:999;
+}
+.checkbox {
+	margin:15px 0;
+}
+.auto-danger, .alert-error {
+	display: none;
+}
+.login-edit a, .forget a {
+	color:#666;
+}
+#footer {
+	width:100%;
+	margin-top:40px;
+}
+#footer a {
+	color:#666;
+}
+#footer .link a {
+	margin-right: 15px;
+	margin-bottom:15px;
+	display: inline-block;
+}
+.error {
+	position: absolute;
+	top:0;
+	right:0;
+	z-index:999;
+	line-height:40px;
+	font-weight: normal;
+	color:#f60;
+	margin-right:8px;
+}
+#verify-error {
+	right:159px;
+}
+.auto-danger .iconfont {
+	position: relative;
+	top:-1px;
+}
